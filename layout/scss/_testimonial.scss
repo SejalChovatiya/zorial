@@ -1,0 +1,32 @@
+// 
+// testimonial.scss
+// 
+
+.tns-outer {
+    position: relative;
+    .tns-nav {
+        text-align: center;
+        margin-top: 40px;
+        button {
+            width: 9px !important;
+            height: 5px !important;
+            border: none;
+            background-color: rgba($primary, 0.25) !important;
+            margin: 4px;
+            transition: all 0.3s ease-in-out;
+            border-radius: 2px;
+            &:focus {
+                outline: none;
+            }
+            &:hover {
+                background-color: $primary !important;
+                width: 20px !important;
+            }
+           
+            &.tns-nav-active {
+                background-color: $primary !important;
+                width: 20px !important;
+            }
+        } 
+    }    
+}
